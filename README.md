@@ -24,3 +24,40 @@ Evot es una plataforma que permite a emprendedores y PyMEs crear e integrar chat
 **Historial de todas las conversaciones que el bot genera**
 <img width="1910" height="902" alt="Image" src="https://github.com/user-attachments/assets/a0f3c9a3-984e-4941-9a0d-a21d50d02f16" />
 
+# Ejecución: 
+# Ejecución
+
+## Requisitos
+- Node.js 18+
+- pnpm
+
+## Instalación
+
+1. Clona el repositorio
+git clone https://github.com/EfraelTino/my-chat-widget.git
+cd my-chat-widget
+
+2. Instala las dependencias
+pnpm install
+
+3. Configura las variables de entorno, crea un archivo `.env` con:
+VITE_SUPABASE_PUBLISHABLE_KEY=tu_supabase_anon_key
+VITE_SUPABASE_URL=https://tu-proyecto.supabase.co
+VITE_WEBHOOK_URL=https://tu-webhook-url.com
+
+4. Inicia el servidor de desarrollo
+pnpm dev
+
+## Build para producción
+pnpm build
+
+# 🛠️ Stack
+
+- React + Vite
+- Supabase (base de datos y autenticación)
+- Nginx (servidor web)
+- n8n (automatización y webhooks)
+- OpenAI (IA del chatbot)
+
+# 📧 Contacto
+efrael2001@gmail.com
